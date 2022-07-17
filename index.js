@@ -1,5 +1,5 @@
 import {} from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
-import firebaseConfig from 'config.js'
+import {firebaseConfig} from './config.js'
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js';
 import { getFirestore, collection, getDocs,doc,addDoc,where,query,setDoc } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js';
 
@@ -34,7 +34,7 @@ import { getFirestore, collection, getDocs,doc,addDoc,where,query,setDoc } from 
   
 })
 l.addEventListener("click",(e)=>{
-    document.getElementById("fl").innerHTML='  <h1 id="st"></h1> <input id="name" type="text"><input id="pwd" type="password"><button id="subm">Log in</button>'
+    document.getElementById("fl").innerHTML='  <h1 id="st"></h1> <input id="name" type="text" placeholder="name"><input id="pwd" type="password" placeholder="password"><button id="subm">Log in</button>'
     const submit=document.getElementById("subm")
   const password=document.getElementById("pwd")
   const name=document.getElementById("name")

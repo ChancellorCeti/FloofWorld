@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Oswald:wght@200&display=swap');
+        input{
+            width:80vh;
+            height:5vh;
+            border:none;
+            font-family: 'Oswald', sans-serif;
+            border-radius:400px;
+            margin:1vh;
+            padding-left:2%;
+            background-color: rgba(65, 105, 225, 0.301);
+        }
+        #body{
+            height:30vh;
+            width:80vw;
+            resize:none;
+            border:none;
+            font-family: 'Oswald', sans-serif;
+            border-radius:40px;
+            background-color: rgba(65, 105, 225, 0.301);
+            margin:1vh;
+            border: 1px solid silver;
+            padding-top:0.5%;
+            padding-left:2%;
+        }
+        button{
+            height:5vh;
+            width:20vw;
+            border-radius:20rem;
+            font-family: 'Croissant One', cursive;
+            background-color:rgba(75, 63, 161, 0.448);
+            text-align:center;
+            margin:1vh;
+        }
+        body{
+            background-color: beige;
+            font-family: 'Oswald', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ask a question!</h1>
+    <input id="title" placeholder="title">
+    <input id="tags" placeholder="tags">
+    <textarea id="body" placeholder="body"></textarea>
+    <button id="sub">Post question!</button>
+    <script src="ask.js" type="module"></script>
+</body>
+</html>

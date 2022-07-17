@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Noto+Sans+JP:wght@300&family=Noto+Sans:wght@100&family=Oswald:wght@600&display=swap');
+#select{
+    
+    justify-content: center;
+    
+    width:100%;
+}
+#select button,#subm{
+    width:30vh;
+    height:5vh;
+    background-color: antiquewhite;
+    border:none;
+}
+
+#fl{
+    
+    margin-top:2vh;
+    justify-content: center;
+    width:100%;
+    
+}
+input{
+    width:40vw;
+    height:3vh;
+    margin-top:0.4vh;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+}
+h2{
+    font-family: 'Noto Sans JP', sans-serif;
+    width:70vw;
+}
+#asz{
+    background-color:lightcyan;
+}
+body{
+    background-color:aliceblue;
+}
+button{
+    margin-top:1vh;
+    border-radius:100vw;
+    height:6vh;
+    background-color: antiquewhite;
+    width:20vw;
+    border:antiquewhite;
+}
